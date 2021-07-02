@@ -34,6 +34,8 @@ app.get('/servicios', (req, res) => {
     res.render("servicios", { tituloServicios: "este es un mensaje dinamico de servicios" })
 });*/
 
+
+
 /*
 app.use((req,res)=>{
     res.status(404).sendFile(__dirname+"/public/404.html")
